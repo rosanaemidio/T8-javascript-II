@@ -1,0 +1,2 @@
+A propriedade TRIM tira os espaços das extremidades da string. É um aparador das pontas strings.
+
