@@ -1,8 +1,8 @@
 const livros = {
     1: {
-        "titulo": "Java Eloquente",
+        "titulo": "Javascript Eloquente",
         "quemEscreveu": "Marijn Haverbeke",
-        "link": "https://github.com/braziljs/eloquente-java"
+        "link": "https://github.com/braziljs/eloquente-javascript"
     },
     2: {
         "titulo": "Você não sabe JS",
@@ -19,19 +19,19 @@ const livros = {
 const lista = document.getElementById("lista-do-catalogo");
 
 for(let propriedade in livros){
-    
+
     let nomeLivro = document.createElement("h2");
     lista.appendChild(nomeLivro);
-    nomeLivro.textContent= livros["propriedade"]["titulo"];
+    nomeLivro.textContent= livros[propriedade]["titulo"];
+
     let autor = document.createElement("p");
     lista.appendChild(autor);
-    autor.
-    textContent = livros["propriedade"]["quemEscreveu"];
-    let baixarLivro =document.createElement("a");
+    autor.textContent = livros[propriedade]["quemEscreveu"];
+    let baixarLivro = document.createElement("a");
     lista.appendChild(baixarLivro);
-    baixarLivro.textContent= "Link ";
-    baixarLivro.setAttribute("href" , ["link"])
-    baixarLivro.setAttribute("target", "_blank")
+    baixarLivro.textContent = "Link ";
+    baixarLivro.setAttribute("href" , livros[propriedade]["link"]);
+    baixarLivro.setAttribute("target", "_blank");
 }
     
     /*livros[2];
@@ -59,6 +59,4 @@ for(let propriedade in livros){
     lista.appendChild(link2);
     link3.textContent= "Link ";
     link3.setAttribute("href" , "http://coletivosycorax.org/wp-content/uploads/2019/09/CALIBA_E_A_BRUXA_WEB-1.pdf")
-    link3.setAttribute("target", "_blank");
-
-// }
+    link3.setAttribute("target", "_blank")*/
