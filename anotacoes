@@ -1,0 +1,26 @@
+Aula 04;
+
+Lembrando que o Dom é uma represdentação do HTML.
+Eu defino um elemento sendo do Dom, fazendo com que a let receba o document como valor.
+ATRIBUTOS (características de tags do HTML):
+Quando quero inserir qualquer atributo válido do HTML uso o método .setAttribute("atributo", "valor que quero adicionar")
+Quando quero pegar um atributo uso o .getAttribute("atributo que quero capturar");
+P/ apagar um atributo .removeAttribute;
+.hasAttribute("atributo") Verifica se este atributo existe.
+
+
+Quando for criar uma propriedade de um objeto e a propriedade tiver um caractere especial usa-se "" para nomeálo.
+EX: "Conta-bancaria" : 1234,
+Para acessar o valor do objeto com caractere especial, eu tenho que utilizar []; o nome desta forma de acessar a propriedade do objeto é Bracket notation (colchete de notação);
+EX: nomedoObjeto["Conta-bancaria"]
+
+Existe um for que é para objetos:
+for(let propriedade in objeto){ ==>> Para cada propriedade no objeto.
+    objeto[propriedade]
+}
+
+este for in substitui as propriedades de objeto
+e usamos [] para chamar o objeto.
+
+O "THIS" só pode usar no OBJETO.
+

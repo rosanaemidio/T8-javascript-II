@@ -1,0 +1,26 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(190, 126, 126);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    display:flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+#sou-a-mamis{
+    align-items: center;
+
+}
