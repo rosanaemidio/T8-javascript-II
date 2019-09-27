@@ -93,3 +93,7 @@ body {
     color: #757575;
     font-size: 12px;
 }
+
+.botton-desfazer {
+    background-color: red;
+}
